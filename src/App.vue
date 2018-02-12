@@ -29,10 +29,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-color: #EDEDED;
   margin-top: 0em;
   margin-left: 5em;
   margin-right: 5em;
-  background-image: url(assets/back.jpg);
+  min-height: 750px;
+  /* background-image: url(assets/m4.jpg); */
 }
 
 .pos{
