@@ -1,0 +1,53 @@
+<template>
+<div>
+  <div class="foot" id="hangon">
+    <div class="card text-center">
+      <div class="card-header">
+    <h4></h4>  
+    </div>
+  </div>
+</div>
+</div>
+
+</template>
+
+
+<script>
+export default {
+  name: 'ownfooter',
+  methods: {
+    toHome: function(event){
+      if(event){
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;      }
+    }
+  }
+}
+</script>
+
+<style scoped>
+
+.card {
+  background-color: #393939;
+}
+
+.card-header{
+  color: grey;
+  font-family: 'Oswald', cursiv;
+  font-size: 185%;
+}
+
+.foot{
+}
+
+#uptotop {
+  float:right;
+  height: 3px;
+  width: auto;
+}
+
+#hangon{
+  margin-top: 0;
+}
+
+</style>
